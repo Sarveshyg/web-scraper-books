@@ -1,7 +1,8 @@
 # A Simple Webscraper for Books To Scrape
 
 ## Full Video Demo (MP4)
-[▶ Watch demo video](assets/web-scraper-demo.mp4)
+![demo video](assets/web-scraper-demo.gif)
+
 
 ### Instructions to run this on your system
 
