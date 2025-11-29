@@ -1,5 +1,8 @@
 # A Simple Webscraper for Books To Scrape
 
+## Full Video Demo (MP4)
+[▶ Watch demo video](assets/web-scraper-demo.mp4)
+
 ### Instructions to run this on your system
 
 - Firstly, click on the green code button. Then if you have git installed on your system, copy the https link and use this command
