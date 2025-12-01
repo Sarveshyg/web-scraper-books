@@ -1,27 +1,29 @@
-# A Simple Webscraper for Books To Scrape
+# 📚 E-commerce Data Scraper (Python)
 
-## Full Video Demo (MP4)
-![demo video](assets/web-scraper-demo.gif)
+A high-performance web scraper built with **Python**, **BeautifulSoup**, and **Pandas**. 
 
+This script automates the extraction of product data (Title, Price, Rating, Stock Status) from e-commerce sandbox environments and exports clean, structured data for market analysis.
 
-### Instructions to run this on your system
+![Scraper Demo](assets/web-scraper-demo.gif)
 
-- Firstly, click on the green code button. Then if you have git installed on your system, copy the https link and use this command
-```shell
-git clone [url]
-```
-- If you do not have git installed, click on "Download ZIP" option.
-- Locate the downloaded zip file and extract it.
-- You can delete the books.csv file if you want to. (Its just the output of the program)
-- Open the scrape_books.py in a code editor of your liking and run these command in order
-```shell
-pip install -r requirements.txt
-```
-```shell
-python ./scrape_books.py
-```
+## 🚀 Features
 
-- Once you run the code, you will get asked, how many books you want to scrape. Enter any number and the books will be scraped.
-- All the scraped data will be stored inside the books.csv file. So open that file, to check the results
+- **Automated Extraction:** Scrapes hundreds of products in seconds.
+- **Data Cleaning:** Automatically removes currency symbols and formats text.
+- **Excel Export:** Saves data to a structured `.xlsx` file using Pandas.
+- **Error Handling:** Robust connection checks to prevent crashes.
 
-## Thank You
+## 🛠️ Tech Stack
+
+- **Python 3.10+**
+- **BeautifulSoup4** (HTML Parsing)
+- **Pandas** (Data Formatting & Export)
+- **Requests** (HTTP Protocol)
+
+## ⚙️ How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Sarveshyg/web-scraper-books.git](https://github.com/Sarveshyg/web-scraper-books.git)
+   cd web-scraper-books
+   ```
